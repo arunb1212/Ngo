@@ -1,8 +1,7 @@
 import React from "react";
-import { Facebook, Locate, LocateIcon, Mail } from "lucide-react";
+import { Facebook, Mail } from "lucide-react";
 import { Twitter } from "lucide-react";
 import { Instagram } from "lucide-react";
-// import { BiLocation } from 'react-icons/bi';\
 import { MapPin } from "lucide-react";
 
 import { Phone } from "lucide-react";

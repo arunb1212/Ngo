@@ -15,6 +15,7 @@ const Contact = () => {
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
+    console.log(form)
   };
 
   const handleSubmit = (e) => {
@@ -32,9 +33,9 @@ const Contact = () => {
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7 }}
-      className="h-screen flex flex-col  mt-[30px] items-center justify-center bg-gradient-to-br from-blue-100 to-green-100 py-12"
+      className="h-screen flex flex-col  items-center justify-center bg-gradient-to-br from-blue-100 to-green-100 py-12"
     >
-      <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-lg">
+      <div className="bg-white shadow-lg mt-[100px] rounded-lg p-8 w-full max-w-lg">
         <h2 className="text-3xl font-bold mb-6 text-center text-blue-700">Contact Us</h2>
         {submitted ? (
           <motion.div
