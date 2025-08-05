@@ -8,12 +8,13 @@ const Nav = () => {
     const handleScroll = () => {
       const scrollPercentage = (window.scrollY / window.innerHeight) * 100
       setIsScrolled(scrollPercentage > 20)
+    //   console.log(scrollPercentage)
     }
 
     window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
+    // return () => window.removeEventListener('scroll', handleScroll)
   }, [])
-
+// console.log(window.scrollY)
   return (
     <div className={`fixed top-0 left-0 w-full flex justify-between items-center py-[10px] px-[20px] z-50 transition-all duration-300 ${isScrolled ? 'backdrop-blur-md text-black' : 'bg-transparent text-white'}`}>
         <div>
