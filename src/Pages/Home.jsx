@@ -1,7 +1,6 @@
 import React from "react";
 import Hero from "../Components/Hero";
 import Program from "./Program";
-// import About from './About'
 import { GoBook } from "react-icons/go";
 import { SlPeople } from "react-icons/sl";
 
