@@ -16,7 +16,7 @@ const Nav = () => {
   }, [])
 // console.log(window.scrollY)
   return (
-    <div className={`fixed top-0 left-0 w-full flex justify-between items-center py-[10px] px-[20px] z-50 transition-all duration-300 ${isScrolled ? 'backdrop-blur-md text-black' : 'bg-transparent text-white'}`}>
+    <div className={`fixed top-0 left-0 w-full flex justify-between items-center py-[10px] px-[50px] z-50 transition-all duration-300 ${isScrolled ? 'backdrop-blur-md text-black' : 'bg-transparent text-white'}`}>
         <div>
         <img className='w-[100px]' src="https://bastikipathshala-org.translate.goog/wp-content/uploads/2024/02/Basti_Ki_Pathshala-_Official_Logo-removebg-preview.png?_x_tr_sl=en&_x_tr_tl=hi&_x_tr_hl=hi&_x_tr_pto=tc" alt="" />
 

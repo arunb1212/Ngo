@@ -10,10 +10,11 @@ import { CiHeart } from "react-icons/ci";
 import Timeline from "../Components/Timeline";
 import Map from "../Components/Map";
 import Story from "../Components/Story";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className=" w-[full] overflow-x-hidden">
       <Hero />
 
       <h1 className="py-[30px] mb-[20px] h-[150px] grid place-content-center text-xl font-semi-bold text-center">
@@ -56,7 +57,7 @@ const Home = () => {
       </div>
       <div>
       </div>
-      <div className="text-center mt-[20px]">
+      <div className="text-center w-[100%] mt-[20px]">
 <h1 className="text-center text-3xl font-bold ">Success Stories</h1>
 <p className="text-2xl text-[#4B5563]" >Real impact in the lives of our students</p>
      
@@ -69,6 +70,9 @@ const Home = () => {
 
 
       </div> 
+      </div>
+      <div className="w-[100%]">
+        <Footer/>
       </div>
     </div>
   );

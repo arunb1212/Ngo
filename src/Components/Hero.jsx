@@ -7,8 +7,9 @@ const Hero = () => {
         <video className='w-full h-full object-cover' autoPlay muted loop src='./src/assets/vid1.mp4' ></video>
       </div>
       
+      
       <div className=' h-[100vh] bg-blend-darken 
-  flex items-center flex-col   justify-center z-[1] text-white text-center'>
+  flex items-center flex-col justify-center z-[10] text-white text-center'>
         <p className='text-3xl font-bold'> Empowering Communities Through Education </p>
         <p>Providing quality education to underprivileged children in urban slums
 
