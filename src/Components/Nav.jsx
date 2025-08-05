@@ -12,7 +12,6 @@ const Nav = () => {
     }
 
     window.addEventListener('scroll', handleScroll)
-    // return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 // console.log(window.scrollY)
   return (

@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Calendar, Users, BookOpen, Laptop, Award, Building } from 'lucide-react';
-// import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Timeline() {
 
@@ -81,14 +80,12 @@ export default function Timeline() {
                 index % 2 === 0 ? 'justify-start' : 'justify-end'
               }`}
             >
-              {/* Timeline node */}
               <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center">
                 <div className={`${item.color} w-12 h-12 rounded-full flex items-center justify-center shadow-lg z-10`}>
                   <item.icon className="w-6 h-6 text-white" />
                 </div>
               </div>
 
-              {/* Content card */}
               <div className={`w-5/12 ${index % 2 === 0 ? 'pr-8' : 'pl-8'}`}>
                 <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
                   <div className="flex items-center mb-3">
