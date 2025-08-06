@@ -1,10 +1,12 @@
 import React from 'react'
+import vid1 from '../assets/vid1.mp4';
+
 
 const Hero = () => {
   return (
     <div className='relative h-screen'>
       <div className='absolute top-0 left-0 w-full h-full z-[-1]'>
-        <video className='w-full h-full object-cover' autoPlay muted loop src='./src/assets/vid1.mp4' ></video>
+        <video className='w-full h-full object-cover' autoPlay muted loop src={vid1} ></video>
       </div>
       
       
