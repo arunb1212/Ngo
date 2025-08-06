@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import Footer from "../Components/Footer";
+import { div } from "framer-motion/client";
 
 const initialState = {
   name: "",
@@ -29,6 +31,8 @@ const Contact = () => {
   };
 
   return (
+
+    <div>
     <motion.div
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
@@ -102,6 +106,12 @@ const Contact = () => {
         )}
       </div>
     </motion.div>
+
+    <div>
+      <Footer/>
+    </div>
+    </div>
+
   );
 };
 

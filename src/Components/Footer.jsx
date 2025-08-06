@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
         
       </div>
-      <hr className="border-white w-[100%]" />
+      <hr className="mt-[10px] border-white w-[100%]" />
       <p className="text-white">© 2024 Basti Ki Pathshale. All rights reserved.</p>
     </div>
   );
